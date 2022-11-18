@@ -1,5 +1,5 @@
 default:
-	gcc exploit.c -o exploit -lnet
+	gcc exploit.c -o exploit -lnet -lpcap
 
 run: default
 	sudo ./exploit
